@@ -1,0 +1,7 @@
+<ListView items="{{ items }}" itemTap="{{ onItemTap }}">
+    <ListView.itemTemplate>
+        <StackLayout class="list-item">
+            <Label text="{{ $value }}" />
+        </StackLayout>
+    </ListView.itemTemplate>
+</ListView>

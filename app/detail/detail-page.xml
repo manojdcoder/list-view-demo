@@ -1,0 +1,8 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onPageLoaded">
+    <ActionBar title="Detail" icon=""></ActionBar>
+    <GridLayout rows="auto,*"
+        xmlns:comps="components">
+        <Button row="0" text="Tap Me" tap="onTap" />
+        <comps:List row="1" />
+    </GridLayout>
+</Page>
