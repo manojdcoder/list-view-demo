@@ -1,4 +1,4 @@
-<ListView items="{{ items }}" itemTap="{{ onItemTap }}">
+<ListView items="{{ items }}" itemTap="onItemTap" loaded="onLoaded">
     <ListView.itemTemplate>
         <StackLayout class="list-item">
             <Label text="{{ $value }}" />
